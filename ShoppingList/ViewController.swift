@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var TableView: UITableView!
+    
+    @IBOutlet weak var TextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func whenButtonPressed(_ sender: UIBarButtonItem) {
+    }
+    
 
 }
 
